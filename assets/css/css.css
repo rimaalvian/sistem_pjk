@@ -1,0 +1,151 @@
+/*
+	1. css DESKTOP
+	2. css MOBILE
+*/
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper
+{
+	width: 100%;
+	background: #202020
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+/* Navbar Atas */
+
+.navbar-default
+{
+	background-color: #8a6d3b;
+	border-color: #8a6d3b;
+}
+
+.navbar-default .navbar-brand
+{
+	color: #f4f4f4;
+}
+
+.navbar-default .navbar-brand:hover
+{
+	color: #f4f4f4;
+}
+
+.navbar-default .navbar-brand:visited
+{
+	color: #f4f4f4;
+}
+
+.navbar-default .navbar-toggle .icon-bar
+{
+	background: #f4f4f4;
+}
+
+/* User pada Navbar Side*/
+
+.navbar-side .user
+{
+	padding: 20px;
+	text-align: center;
+}
+
+.navbar-side .user img
+{
+	width: 50%;
+}
+
+.navbar-side
+{
+	background: #202020;
+}
+
+.navbar-side ul li
+{
+	border-bottom: 1px solid rgba(107, 108, 109, 0.19);
+}
+
+.navbar-side ul li a
+{
+	color: #fff;
+}
+
+.navbar-side ul li a:hover
+{
+	color: #202020;
+}
+
+
+.navbar-side ul li a:focus
+{
+	color: #202020;
+}
+
+/* css untuk dropdown menu */
+.navbar-side .tr-tree > .tr-tree-menu
+{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	display: none;
+}
+
+.navbar-side .tr-tree > .tr-tree-menu li a
+{
+	padding: 10px;
+	display: block;
+	font-size: 13px;
+}
+
+.navbar-side .tr-tree > .tr-tree-menu li a:hover
+{
+	background: #f4f4f4;
+	text-decoration: none;
+}
+
+.navbar-side .tr-tree > .tr-tree-menu li.active a
+{
+	background: #f9f9f9;
+	font-weight: bold;
+}
+
+#page-wrapper
+{
+	padding: 15px;
+	background: #f3f3f3;
+}
+
+#page-inner
+{
+	background: #fff;
+	padding: 15px;
+}
+
+/*
+	spesifik css ke desktop
+*/
+
+@media(min-width: 768px)
+{
+	#page-wrapper
+	{
+		margin: 0 0 0 260px;
+		padding: 15px;
+		min-height: 1000px;
+	}
+
+	#page-inner
+	{
+		min-height: 800px;
+	}
+	.navbar-side
+	{
+		width: 260px;
+		position: absolute;
+		z-index: 1;
+		min-height: 1000px;
+	}
+}
